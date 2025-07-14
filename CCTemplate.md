@@ -1,43 +1,94 @@
-# Commits de funcionalidades
-feat: <o que foi adicionado>
-# Ex: feat: adiciona filtro de busca por categoria
+# 📝 Guia de Commits (Conventional Commits)
 
-# Commits de correções
-fix: <o que foi corrigido>
-# Ex: fix: corrige bug na ordenação de produtos
+Este guia segue o padrão de **Conventional Commits**, ideal para manter o histórico do projeto organizado, legível e automatizável (CI/CD, changelogs, etc).
 
-# Commits de documentação
-docs: <mudança na documentação>
-# Ex: docs: atualiza README com instruções de instalação
+---
 
-# Commits de estilo (não afetam lógica)
-style: <alterações de formatação ou estilo>
-# Ex: style: remove espaços em branco desnecessários
+## ✅ Tipos de Commits
 
-# Commits de refatoração (melhoria interna, sem mudar comportamento)
-refactor: <como o código foi reorganizado>
-# Ex: refactor: separa lógica de autenticação em módulo próprio
+### 🔧 `feat:` Commits de Funcionalidades
+Usado para adicionar uma **nova funcionalidade** ao sistema.
 
-# Commits de testes
-test: <testes adicionados ou ajustados>
-# Ex: test: adiciona teste unitário para função de login
+**Exemplo:**
+```bash
+feat: adiciona filtro de busca por categoria
+```
+### 🐞 `fix:` Commits de Correções
+Usado para corrigir bugs ou comportamentos indesejados.
+**Exemplo:**
+```bash
+fix: corrige bug na ordenação de produtos
+```
 
-# Commits de tarefas auxiliares
-chore: <tarefas sem impacto direto na aplicação>
-# Ex: chore: atualiza dependências do projeto
+### 📚 `docs:` Commits de Documentação
+Usado para mudanças em arquivos de documentação (README, comentários, etc.).
+**Exemplo:**
+```bash
+docs: atualiza README com instruções de instalação
+```
 
-# Commits de melhoria de performance
-perf: <melhoria de performance>
-# Ex: perf: otimiza consulta SQL para produtos em estoque
+### 🎨 style: Commits de Estilo
+Usado para mudanças de formatação que não afetam a lógica do código.
+**Exemplo:**
 
-# Commits para CI/CD
-ci: <ajustes no pipeline ou configuração>
-# Ex: ci: adiciona step de testes ao GitHub Actions
+style: remove espaços em branco desnecessários
 
-# Commits de build
-build: <mudanças no processo de build ou empacotamento>
-# Ex: build: configura Webpack para produção
+### ♻️ refactor: Commits de Refatoração
+Usado para mudanças internas que não alteram o comportamento externo, apenas melhoram o código.
+**Exemplo:**
 
-# Commits que revertem outro commit
-revert: <descrição do que foi revertido>
-# Ex: revert: desfaz refatoração que quebrou o login
+refactor: separa lógica de autenticação em módulo próprio
+
+### 🧪 test: Commits de Testes
+Usado para adição ou modificação de testes automatizados.
+**Exemplo:**
+
+test: adiciona teste unitário para função de login
+
+### 🧹 chore: Commits de Tarefas Auxiliares
+Usado para tarefas que não alteram o código de produção (dependências, configurações).
+Exemplo:
+
+chore: atualiza dependências do projeto
+
+### ⚡ perf: Commits de Performance
+Usado para melhorias de desempenho.
+**Exemplo:**
+
+perf: otimiza consulta SQL para produtos em estoque
+
+### 🔄 ci: Commits de Integração Contínua
+Usado para mudanças em scripts de CI/CD, como GitHub Actions ou GitLab CI.
+**Exemplo:**
+
+ci: adiciona step de testes ao GitHub Actions
+### 🏗️ build: Commits de Build
+Usado para mudanças que afetam o sistema de build ou empacotamento (Webpack, Docker, etc.).
+**Exemplo:**
+
+build: configura Webpack para produção
+### ⏪ revert: Commits de Reversão
+Usado para desfazer um commit anterior.
+**Exemplo:**
+
+revert: desfaz refatoração que quebrou o login
+🧠 Dica: Estrutura de Commit
+
+<tipo>: <descrição curta>
+
+<corpo opcional explicando o que foi feito, por quê e observações técnicas>
+Exemplo completo:
+
+feat: adiciona sistema de avaliação por estrelas
+
+- Permite usuários avaliarem produtos de 1 a 5
+- Integração com backend via API
+- Interface atualizada com estrelas interativas
+Pode colar isso em qualquer editor de texto e salvar como:
+
+📄 COMMIT_GUIDE.md
+
+
+---
+
+Agora é só colar em qualquer arquivo `.md` e está pronto para uso no seu projeto! Se quiser, posso criar uma versão com links automáticos para navegar entre seções também.
