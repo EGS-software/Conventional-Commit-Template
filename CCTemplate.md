@@ -30,48 +30,51 @@ docs: atualiza README com instruções de instalação
 ### 🎨 style: Commits de Estilo
 Usado para mudanças de formatação que não afetam a lógica do código.
 **Exemplo:**
-
+```bash
 style: remove espaços em branco desnecessários
-
+```
 ### ♻️ refactor: Commits de Refatoração
 Usado para mudanças internas que não alteram o comportamento externo, apenas melhoram o código.
 **Exemplo:**
-
+```bash
 refactor: separa lógica de autenticação em módulo próprio
-
+```
 ### 🧪 test: Commits de Testes
 Usado para adição ou modificação de testes automatizados.
 **Exemplo:**
-
+```bash
 test: adiciona teste unitário para função de login
-
+```
 ### 🧹 chore: Commits de Tarefas Auxiliares
 Usado para tarefas que não alteram o código de produção (dependências, configurações).
 Exemplo:
-
+```bash
 chore: atualiza dependências do projeto
-
+```
 ### ⚡ perf: Commits de Performance
 Usado para melhorias de desempenho.
 **Exemplo:**
-
+```bash
 perf: otimiza consulta SQL para produtos em estoque
-
+```
 ### 🔄 ci: Commits de Integração Contínua
 Usado para mudanças em scripts de CI/CD, como GitHub Actions ou GitLab CI.
 **Exemplo:**
-
+```bash
 ci: adiciona step de testes ao GitHub Actions
+```
 ### 🏗️ build: Commits de Build
 Usado para mudanças que afetam o sistema de build ou empacotamento (Webpack, Docker, etc.).
 **Exemplo:**
-
+```bash
 build: configura Webpack para produção
+```
 ### ⏪ revert: Commits de Reversão
 Usado para desfazer um commit anterior.
 **Exemplo:**
-
+```bash
 revert: desfaz refatoração que quebrou o login
+```
 🧠 Dica: Estrutura de Commit
 
 <tipo>: <descrição curta>
