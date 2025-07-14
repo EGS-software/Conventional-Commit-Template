@@ -93,5 +93,3 @@ Pode colar isso em qualquer editor de texto e salvar como:
 
 
 ---
-
-Agora é só colar em qualquer arquivo `.md` e está pronto para uso no seu projeto! Se quiser, posso criar uma versão com links automáticos para navegar entre seções também.
