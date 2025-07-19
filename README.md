@@ -88,9 +88,5 @@ feat: adiciona sistema de avaliação por estrelas
 - Integração com backend via API
 - Interface atualizada com estrelas interativas
 Pode colar isso em qualquer editor de texto e salvar como:
-
-📄 COMMIT_GUIDE.md
-
-
 ---
 
